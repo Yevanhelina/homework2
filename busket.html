@@ -1,88 +1,92 @@
 <!DOCTYPE html>
 <html>
 <head lang="uk">
-    <meta charset="UTF-8">
-    <title></title>
-    <link rel="stylesheet" type="text/css" href="./style.css">
-    <div style="width:60%;padding:20pt 80pt 0 ;float:left;">
-        </head>
-        <>
-        <div class="container">
-            <div class="row">
-                <div class="add">
-                    <input type="text" placeholder="Add">
-                    <button>Додати</button>
-                </div>
-                <div class="scroll">
-                    <div class="detail">
-                        <div class="detail-title">
-                            Помідори
-                        </div>
-                        <div class="detail-count">
-                            <button class="detail-count-minus">–</button>
-                            <span class="detail-count-current">0</span>
-                            <button class="detail-count-plus">+</button>
-                        </div>
-                        <div class="detail-control">
-                            <button class="detail-control-buy">Куплено</button>
-                            <button class="detail-control-remove">x</button>
-                        </div>
-                    </div>
-                    <div class="detail">
-                        <div class="detail-title">
-                            Печиво
-                        </div>
-                        <div class="detail-count">
-                            <button class="detail-count-minus">–</button>
-                            <span class="detail-count-current">0</span>
-                            <button class="detail-count-plus">+</button>
-                        </div>
-                        <div class="detail-control">
-                            <button class="detail-control-buy">Куплено</button>
-                            <button class="detail-control-remove">x</button>
-                        </div>
-                    </div>
-                    <div class="detail">
-                        <div class="detail-title">
-                            Сир
-                        </div>
-                        <div class="detail-count">
-                            <button class="detail-count-minus">–</button>
-                            <span class="detail-count-current">0</span>
-                            <button class="detail-count-plus">+</button>
-                        </div>
-                        <div class="detail-control">
-                            <button class="detail-control-buy">Куплено</button>
-                            <button class="detail-control-remove">x</button>
-                        </div>
-                    </div>
-                </div>
+   <meta charset="UTF-8">
+   <title></title>
+   <link rel="stylesheet" type="text/css" href="./style.css">
+   </head>
+   <body>
+      <div class="container">
+      <div class="row">
+      <div class="add">
+         <input type="text" placeholder="Назва товару">
+         <button>Додати</button>
+      </div>
+      <div class="scroll">
+         <div class="detail">
+            <div class="detail-title">
+               Помідори       
+               </div> 
+               <div class="detail-count">
+                  <button class="detail-count-minus" data-tooltip="Менше">–</button>
+                  <span class="detail-count-current">0</span>
+                  <button class="detail-count-plus" data-tooltip="Більше">+</button>                      
+               </div>
+               <div class="detail-control">
+                  <button class="detail-control-buy" data-tooltip="Купи">Куплено</button>
+                  <button class="detail-control-remove" data-tooltip="Видилити">x</button>
+               </div>
+              </div>
+               <div class="detail">
+                  <div class="detail-title">
+                     Печиво         
+                  </div>
+                  <div class="detail-count">
+                     <button class="detail-count-minus" data-tooltip="Менше">–</button>
+                     <span class="detail-count-current">0</span>
+                     <button class="detail-count-plus" data-tooltip="Більше">+</button>                      
+                  </div>
+                  <div class="detail-control">
+                     <button class="detail-control-buy" data-tooltip="Купи">Куплено</button>
+                     <button class="detail-control-remove" data-tooltip="Видилити">x</button>
+                  </div>
+               </div>
+                <div class="detail">
+                  <div class="detail-title">
+                     Сир        
+                  </div>
+                  <div class="detail-count">
+                     <button class="detail-count-minus">–</button>
+                     <span class="detail-count-current">0</span>
+                     <button class="detail-count-plus">+</button>                      
+                  </div>
+                  <div class="detail-control">
+                     <button class="detail-control-buy" data-tooltip="Купи">Куплено</button>
+                     <button class="detail-control-remove" data-tooltip="Видилити">x</button>
+                  </div>
+               </div>           
             </div>
-
-            <div class="basket">
-                <div class="donelist">
-                    <h3> Залишилося </h3>
-                </div>
-                <div class="donelist">
+         </div>
+      <div class="basket">
+      <div class="donelist">
+         <h3> Залишилося </h3>
+      </div>
+      <div class="donelist">
          <span class="detail">
          <span class="detail-title"> Помідори </span>
          <span class="detail-count"> 0 </span>
          </span>
-                    <span class="detail">
+         <span class="detail">
          <span class="detail-title"> Печиво </span>
          <span class="detail-count"> 0 </span>
-         </span>
-                    <span class="detail">
+         </span>		
+         <span class="detail">
          <span class="detail-title"> Сир </span>
          <span class="detail-count"> 0 </span>
-         </span>
-                </div>
-                <div class="donelist">
-                    <h3> Куплено </h3>
-                    <div class="donelist">
-                    </div>
-                </div>
-            </div>
-        </div>
-        </body>
-    </div>
+         </span>		
+      </div>
+      <div class="donelist">
+      <h3> Куплено </h3>
+      <div class="donelist">
+      			</div>
+      		</div>
+      	</div>
+      	<div class="badge">
+      		<div class="badge-name">
+      			<b>Buy list </b>
+      			Created by:<br/>
+      			<b>Yevanhelina Zadniprovska</b>
+      		</div>
+      	</div>
+       </div>
+      </body>
