@@ -1,0 +1,122 @@
+body {
+    background-color : #EEEEEE;
+}
+.container {
+    position : relative;
+    width:1000px;
+    margin: 0 auto;
+}
+.container > div {
+    position: absolute;
+    display: inline-block;
+    box-sizing: border-box;
+    background-color:#FFF;
+    border: 1px solid rgba(30,30,35,0);
+    border-radius: 7px;
+}
+
+.row  {
+    left: 0;
+    width: calc(100% - 308px);
+}
+.row >div {
+    padding :20px;
+}
+.row .add input{
+    width:78%;
+    border-radius: 7px;
+    padding: 10px;
+    border: 1px solid silver;
+    box-sizing: border-box;
+}
+.row .add button {
+    background-color: cornflowerblue;
+    padding: 8px;
+    color: white;
+    width: 21%;
+    border: 3px solid cornflowerblue;
+    border-radius: 7px;
+    font-weight:bold
+}
+.row .add button:active {
+    background-color: royalblue;
+}
+.row .add button:hover {
+    background-color: royalblue;
+}
+.row .scroll .detail {
+    border-top: 1px solid silver;
+}
+.row .scroll .detail > div {
+    display: inline-block;
+    width: calc(33% - 0.7px);
+    padding: 5px;
+    box-sizing: border-box;
+}
+.row .scroll .detail .detail-count{
+    text-align: center;
+}
+.row .scroll .detail .detail-count .detail-count-minus{
+    background-color:lightcoral;
+    border: 1px solid lightcoral;
+    border-radius: 60px;
+    padding: 5px;
+}
+.row .scroll .detail .detail-count .detail-count-minus:active {
+    background-color: firebrick;
+}
+.row .scroll .detail .detail-count .detail-count-current{
+    padding: 3px 5px;
+    background-color: lightgrey;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+}
+.row .scroll .detail .detail-count .detail-count-current:active{
+    background-color:darkgray;
+}
+.row .scroll .detail .detail-count .detail-count-plus{
+    background-color:mediumseagreen;
+    border: 1px solid mediumseagreen;
+    border-radius: 60px;
+    padding: 5px;
+}
+.row .scroll .detail .detail-count .detail-count-plus:active{
+    background:seagreen;
+}
+.row .scroll .detail .detail-control{
+    text-align: right;
+}
+
+.row .scroll .detail-control-buy{
+    padding: 3px 6px;
+    background-color: lightgrey;
+    color: black;
+    border: 1px solid darkgray;
+    border-radius: 5px;
+}
+.row .scroll .detail-control-remove{
+    padding: 3px 6px;
+    background-color: indianred;
+    border: 1px solid indianred;
+    border-radius: 5px;}
+
+.basket {
+    right: 0;
+    width: 290px;
+}
+.basket .donelist{
+    padding: 9px;
+    border-bottom: 1px solid silver;}
+
+.basket .donelist .detail{
+    border-radius: 5px;
+    background-color: lightgrey;
+    padding: 7px;
+    margin-right: 5px;
+}
+.basket .donelist .detail-count{
+    border-radius: 50%;
+    background-color: orangered;
+    color: white;
+    padding: 2px;
+}
