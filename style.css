@@ -14,23 +14,23 @@ body {
 	border: 1px solid rgba(30,30,35,0); 
 	border-radius: 7px; 
 } 
-.row { 
+.product { 
 	left: 0; 
 	background-color:white; 
 	width: calc(100% - 308px); 
 } 
-.row >div { 
+.product >div { 
 	padding :20px; 
 	border-radius:7px; 
 } 
-.row .add input{ 
+.product .add input{ 
 	width:78%; 
 	border-radius: 7px; 
 	padding: 10px; 
 	border: 1px solid silver; 
 	box-sizing: border-box; 
 } 
-.row .add button { 
+.product .add button { 
 	background-color: cornflowerblue; 
 	padding: 8px; 
 	color: white; 
@@ -39,25 +39,25 @@ body {
 	border-radius: 7px; 
 	font-weight:bold 
 } 
-.row .add button:active { 
+.product .add button:active { 
 	background-color: royalblue; 
 } 
-.row .add button:hover { 
+.product .add button:hover { 
 	background-color: royalblue; 
 } 
-.row .scroll .detail { 
+.product .scroll .detail { 
 	border-top: 1px solid silver; 
 } 
-.row .scroll .detail > div { 
+.product .scroll .detail > div { 
 	display: inline-block; 
 	width: calc(33% - 0.7px); 
 	padding: 5px; 
 	box-sizing: border-box; 
 } 
-.row .scroll .detail .detail-count{ 
+.product .scroll .detail .detail-count{ 
 	text-align: center; 
 } 
-.row .scroll .detail .detail-count .detail-count-minus{ 
+.product .scroll .detail .detail-count .detail-count-minus{ 
 	width: 30px;
 	height: 30px;
 	border-radius: 30px;
@@ -66,16 +66,16 @@ body {
 	border: 1px solid lightcoral;  
 
 } 
-.row .scroll .detail .detail-count .detail-count-minus:active { 
+.product .scroll .detail .detail-count .detail-count-minus:active { 
 	background-color: firebrick; 
 } 
-.row .scroll .detail .detail-count .detail-count-current{ 
+.product .scroll .detail .detail-count .detail-count-current{ 
 	padding: 3px 5px; 
 	background-color: lightgrey; 
 	border: 1px solid lightgrey; 
 	border-radius: 5px; 
 } 
-.row .scroll .detail .detail-count .detail-count-plus{ 
+.product .scroll .detail .detail-count .detail-count-plus{ 
 	width: 30px;
 	height: 30px;
 	border-radius: 30px;
@@ -84,14 +84,14 @@ body {
 	border: 1px solid mediumseagreen; 
 	padding: 5px; 
 } 
-.row .scroll .detail .detail-count .detail-count-plus:active{ 
+.product .scroll .detail .detail-count .detail-count-plus:active{ 
 	background:seagreen; 
 } 
-.row .scroll .detail .detail-control { 
+.product .scroll .detail .detail-control { 
 	text-align: right; 
 } 
 
-.row .scroll .detail .detail-control .detail-control-buy{ 
+.product .scroll .detail .detail-control .detail-control-buy{ 
 	height: 30px;
 	width: 40%;
 	background-color:#F8F8F8; 
@@ -99,7 +99,7 @@ body {
 	border: 1px solid darkgray; 
 	border-radius: 5px; 
 } 
-.row .scroll .detail-control .detail-control-remove{ 
+.product .scroll .detail-control .detail-control-remove{ 
 	height: 30px;
 	width: 30px;
 	background-color: firebrick; 
